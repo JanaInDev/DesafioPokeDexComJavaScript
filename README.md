@@ -20,7 +20,7 @@ Projeto desenvolvido seguindo a Trilha **Front-End** disponibilizada pela **DIO*
 ---
 
 ## 🏁 Resultado Final
-**Link do projeto online:** [Pokédex]()  
+**Link do projeto online:** [Pokédex](https://janaindev.github.io/DesafioPokeDexComJavaScript/)  
 ---
 
 ## Autora ♥
