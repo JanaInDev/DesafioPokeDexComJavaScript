@@ -1,24 +1,54 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #f6f8fc;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    max-width: 992px;
+    transition: background 0.3s;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+/* Dark Mode */
+body.dark {
+    background-color: #121212;
+    color: #eee;
+}
+
+body.dark .content {
+    background-color: #1e1e1e;
+}
+
+body.dark button {
+    background-color: #eee;
+    color: #333;
+}
+
+/* Botões */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+button:active {
+    transform: scale(0.95);
 }
